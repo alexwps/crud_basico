@@ -8,9 +8,6 @@ use Tests\TestCase;
 
 class AlunoRouteTest extends TestCase
 {
-    /**
-     * A basic feature test example.
-     */
     public function test_checking_the_home_page_route_returns_a_successful_response(): void
     {
         $response = $this->get('/');
